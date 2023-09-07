@@ -6,18 +6,16 @@ public class Main {
         int addend = 1100;
 
         int bonus = 0;
-        if (addend >1000) {
-            bonus = addend /100;
+        if (addend > 1000) {
+            bonus = addend / 100;
         }
 
-        int finalbalance = initialBalance +addend + bonus;
-        System.out.println( "Итоговый счет :" + finalbalance);
-        System.out.println( "Бонус:" + bonus);
+        int finalbalance = initialBalance + addend + bonus;
+        System.out.println("Итоговый счет :" + finalbalance);
+        System.out.println("Бонус:" + bonus);
 
 
     }
-
-
 
 
 }
